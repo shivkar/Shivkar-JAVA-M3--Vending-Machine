@@ -1,0 +1,14 @@
+2021-04-04T17:56:29.351098400 : One Snickers removed.
+2021-04-04T23:16:37.381405600 :  One Malteasers removed
+2021-04-04T23:18:22.115267100 :  One Malteasers removed
+2021-04-04T23:19:38.802404 :  One Malteasers removed
+2021-04-04T23:19:38.813400 :  One Malteasers removed
+2021-04-04T23:20:24.916978600 :  One Malteasers removed
+2021-04-04T23:27:00.549672200 :  One Malteasers removed
+2021-04-04T23:27:00.573363700 :  One Malteasers removed
+2022-02-01T17:34:53.450460600 : One Snickers removed.
+2022-02-01T17:34:53.887949700 :  One Malteasers removed
+2022-02-01T17:34:53.919197100 :  One Malteasers removed
+2022-02-01T17:36:06.000279200 : One Snickers removed.
+2022-02-01T17:36:06.515904 :  One Malteasers removed
+2022-02-01T17:36:06.547153200 :  One Malteasers removed
