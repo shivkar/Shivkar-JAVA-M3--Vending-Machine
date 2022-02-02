@@ -1,7 +1,7 @@
 Snickers::2.10::0
-Kitkat::1.50::17
-McCoys::1.30::18
-Haribo::1.60::9
-Malteasers::2.10::18
-Starburst::1.05::17
-Cereal bar::2.50::18
+Kitkat::1.50::16
+McCoys::1.30::16
+Haribo::1.60::8
+Malteasers::2.10::14
+Starburst::1.05::15
+Cereal bar::2.50::17

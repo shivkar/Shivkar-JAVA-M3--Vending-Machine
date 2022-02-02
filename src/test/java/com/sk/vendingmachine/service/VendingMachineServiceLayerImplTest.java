@@ -145,8 +145,8 @@ public class VendingMachineServiceLayerImplTest {
         } 
 
         //ASSERT
-        assertNotNull(itemWanted, "change should not be null");
-        assertEquals(itemWanted, malteasersClone,"The item retrieved should be snickers");
+        assertNotNull(itemWanted, "Item should not be null");
+        assertEquals(itemWanted, malteasersClone,"The item retrieved should be malteasersClone");
     }
     }
     
@@ -174,6 +174,7 @@ public class VendingMachineServiceLayerImplTest {
             }
         } 
     }
+
     
     
 }

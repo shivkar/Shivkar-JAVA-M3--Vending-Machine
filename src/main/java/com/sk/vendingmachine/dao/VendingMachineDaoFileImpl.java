@@ -56,38 +56,9 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
     public Item getItem(String name) throws VendingMachinePersistenceException {
         loadMachine();
         return items.get(name);
-//        Set<String> names = items.keySet();
-//        
-//        for(String n : names){
-//            
-//            if(name.equalsIgnoreCase(name))
-//            {
-//                return items.get(n);
-//            }
-//        }
-//        
-//        return null;
-    }
 
-    //Dont think i need the method below, ignore for now.
-//    @Override
-//    public List<String> getListOfItemNamesInStock()throws VendingMachinePersistenceException {
-//        loadMachine();
-//        //Return a list of the items names where the item inventory
-//        //is greater than 0, i.e. get the keys where the inventory>0
-//        
-//        //Filter the map to begin with
-//        Map<String, Item> filteredMap = items.entrySet()
-//                .stream()
-//                .filter(map -> map.getValue().getInventory() >=0)
-//                .collect(Collectors.toMap(map -> map.getKey(), map -> map.getValue()));
-//        
-//        //Once map is filtered, retrieve the names i.e. the keys
-//        List<String> itemsInStock = (List<String>) filteredMap.keySet();
-//
-//        return itemsInStock;
-//    }
-        
+
+    }
      
     @Override
     public Map<String,BigDecimal> getMapOfItemNamesInStockWithCosts() throws VendingMachinePersistenceException{
@@ -138,7 +109,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
                             new FileReader(VENDING_MACHINE_FILE)));
         } catch (FileNotFoundException e) {
             throw new VendingMachinePersistenceException(
-                    "-_- Could not load item data into memory.", e);
+                    "Could not load item data into memory.", e);
         }
         String currentLine;
         Item currentItem;
@@ -165,7 +136,7 @@ public class VendingMachineDaoFileImpl implements VendingMachineDao {
         try {
             out = new PrintWriter(new FileWriter(VENDING_MACHINE_FILE));
         } catch (IOException e) {
-            throw new VendingMachinePersistenceException("Could not save student data.", e);
+            throw new VendingMachinePersistenceException("Could not save item data.", e);
         }
         String itemAsText;
         List <Item> itemList = this.getAllItems();

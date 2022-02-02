@@ -2,6 +2,6 @@ Snickers::2.10::0
 Kitkat::1.50::17
 McCoys::1.30::18
 Haribo::1.60::9
-Malteasers::2.10::1
+Malteasers::2.10::2
 Starburst::1.05::17
 Cereal bar::2.50::20

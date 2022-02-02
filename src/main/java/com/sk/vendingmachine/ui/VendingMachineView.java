@@ -24,7 +24,7 @@ public class VendingMachineView {
     }
 
     public BigDecimal getMoney() {
-        return io.readBigDecimal("Please input the amount money in dollars before making selection");
+        return io.readBigDecimal("Please input the amount money in dollars before  selection");
     }
     
     public void displayMenuBanner() {
@@ -42,7 +42,7 @@ public class VendingMachineView {
     }
 
     public void displayEnjoyBanner(String name) {
-        io.print("Here is your change.");
+        io.print("This is your change.");
         io.print("Enjoy your " + name + "!");
     }
     
@@ -74,7 +74,7 @@ public class VendingMachineView {
     }
     
     public void displayPleaseTryAgainMsg() {
-        io.print("Please select something else.");
+        io.print("Please select other else.");
     }
 
 

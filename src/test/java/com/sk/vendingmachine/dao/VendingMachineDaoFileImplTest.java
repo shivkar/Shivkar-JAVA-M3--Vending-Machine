@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test;
  * @author User
  */
 public class VendingMachineDaoFileImplTest {
-    // Question - if we are only reading from and not writing to the DAO, it okay to just make a copy of it.
+   
     
     VendingMachineDao testDao = new VendingMachineDaoFileImpl("VendingMachineTestFile.txt");
     
@@ -106,7 +106,7 @@ public class VendingMachineDaoFileImplTest {
         assertTrue(itemsInStock.containsKey("Kitkat") &&
                 itemsInStock.containsKey("McCoys") &&
                 itemsInStock.containsKey("Haribo") &&
-                itemsInStock.containsKey("Malteasers") &&
+                 itemsInStock.containsKey("Malteasers") &&
                 itemsInStock.containsKey("Starburst") &&
                 itemsInStock.containsKey("Cereal bar"));
     }
